@@ -1,0 +1,25 @@
+body {
+  background-color: #ffffff;
+  padding: 10px;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+.contrastBlock {
+  background-color: #000000;
+  border: 1px solid #666666;
+  padding: 10px;
+  position: absolute;
+}
+
+#themouse {
+  color: #ffffff;
+}
+
+#thetail {
+  color: #ff0000;
+}
+
+#wagging {
+  color: #ffff00;
+}
