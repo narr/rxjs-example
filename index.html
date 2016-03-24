@@ -5,21 +5,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Rx for JavaScript Rocks!</title>
+  <title>RxJS and Medium Image Loading</title>
   <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
   <div class="container">
     <div class="header">
-      <h1>RxJS Example - Follow the Mouse</h1>
-      <p>Example to show coordinating delayed mouse movements and adding a wag.</p>
+      <h1>RxJS and Medium Image Loading Example</h1>
+      <p>Example to show coordinating delayed mouse movements and adding a wag</p>
+      <p>Click the gray background to see the effect of loading Image</p>
     </div>
   </div>
 
-  <div id="themouse" class="contrastBlock">the mouse!</div>
-  <div id="thetail" class="contrastBlock">its tail!</div>
-  <div id="wagging" class="contrastBlock">is happy!</div>
+  <div class="aspectRatioPlaceholder">
+    <div class="aspectRatioPlaceholder-fill"></div>
+    <div class="progressiveMedia"></div>
+  </div>
+
+  <div id="themouse" class="contrastBlock" style="top: 160px;">the mouse!</div>
+  <div id="thetail" class="contrastBlock" style="top: 160px; left:60px">its tail!</div>
+  <div id="wagging" class="contrastBlock" style="top: 160px; left:100px">is happy!</div>
 </body>
 
 </html>

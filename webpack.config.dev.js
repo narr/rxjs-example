@@ -17,12 +17,12 @@ module.exports = {
   module: {
     preLoaders: [{
       test: /\.js$/,
-      exclude: /node_modules/,
+      exclude: [/node_modules/, path.join(__dirname, './lib')],
       loaders: ['eslint']
     }],
     loaders: [{
       test: /\.js?$/,
-      exclude: /node_modules/,
+      exclude: [/node_modules/],
       // the queries are also merged by .babelrc
       loaders: ['babel']
     }]
